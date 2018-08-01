@@ -1,0 +1,91 @@
+.container {
+    width: 37rem;
+    height: 6.5rem;
+    margin: 17% auto;
+}
+.wheel_left {
+    width: 12rem;
+    height: 6rem;
+    background: whitesmoke;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    transition: width;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    transform: rotate(8deg);
+}
+.wheel_left:hover {
+    background: bisque;
+    border-top: none;
+    border-bottom: 1px black solid;
+}
+.wheel_left:hover .eye_left {
+    opacity: 0;
+}
+.eye_left {
+    width: 5rem;
+    height: 5rem;
+    background: buttonface;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+}
+.apple_of_the_eye_left {
+    width: 1rem;
+    height: 1rem;
+    background: black;
+    border-radius: 50%;
+    border: 2px black solid;
+    position: absolute;
+    margin-top: 1.6rem;
+    margin-left: 1.9rem
+}
+.wheel_right {
+    width: 12rem;
+    height: 6rem;
+    background: whitesmoke;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 20rem;
+    margin-top: -6rem;
+    transition: width;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+    transition-delay: 2s;
+    transform: rotate(-8deg);
+}
+.wheel_right:hover {
+    background: bisque;
+    border-top: none;
+    border-bottom: 1px black solid;
+}
+.wheel_right:hover .eye_right {
+    opacity: 0;
+}
+.eye_right {
+    width: 5rem;
+    height: 5rem;
+    background: buttonface;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 0.5rem;
+    margin-left: 3.5rem;
+}
+.apple_of_the_eye_right {
+    width: 1rem;
+    height: 1rem;
+    background: black;
+    border-radius: 50%;
+    border: 2px black solid;
+    position: absolute;
+    margin-top: 1.6rem;
+    margin-left: 1.9rem
+}
